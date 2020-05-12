@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+./Uni_Sub/Python_B/Week_2/Fake.csv
+./Uni_Sub/Python_B/Week_2/True.csv
+./Uni_Sub/Python_B/Week_2/SA2_2016_AUST.shp
