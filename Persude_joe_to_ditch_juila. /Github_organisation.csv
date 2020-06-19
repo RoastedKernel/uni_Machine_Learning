@@ -1,0 +1,101 @@
+﻿Name,Main_Language,Location,Date,Pushed_to_repos,Main_languages,Tota_issues,Total_forks,Total_stars,Followers,Following
+google,C++,,18/01/2012,100 ,17 ,12700 ,49918 ,253737 ,0 ,0 
+Microsoft,TypeScript,"Redmond, WA",11/12/2013,100 ,21 ,25812 ,61549 ,393911 ,0 ,0 
+facebook,C++,"Menlo Park, California",2/04/2009,100 ,15 ,12852 ,136421 ,757326 ,0 ,0 
+apache,Java,,18/01/2009,100 ,15 ,15336 ,136559 ,307848 ,0 ,0 
+alibaba,Java,"Hangzhou, China",12/07/2012,100 ,16 ,8821 ,71863 ,299913 ,0 ,0 
+vuejs,JavaScript, All Over the World,7/12/2013,100 ,7 ,3878 ,73624 ,407351 ,0 ,0 
+tensorflow,Python,,5/11/2015,88 ,15 ,10087 ,162851 ,367721 ,0 ,0 
+freeCodeCamp,JavaScript,Just here on Earth... for now,22/11/2014,100 ,8 ,1249 ,38266 ,347835 ,0 ,0 
+Tencent,C++," Shenzhen, China",14/04/2016,99 ,16 ,4209 ,60499 ,294955 ,0 ,0 
+airbnb,JavaScript ,San Francisco,30/03/2011,100 ,18 ,2673 ,38817 ,269951 ,0 ,0 
+github,JavaScript,"San Francisco, CA",11/05/2008,100 ,14 ,2304 ,99808 ,236866 ,0 ,0 
+symfony,PHP,The Internet,24/10/2009,100 ,3 ,1940 ,18280 ,201979 ,0 ,0 
+angular,JavaScript,,14/10/2009,100 ,7 ,9149 ,92466 ,239977 ,0 ,0 
+fossasia,JavaScript,Singapore,14/10/2009,100 ,13 ,2228 ,18136 ,106705 ,0 ,0 
+square,Java,,9/05/2009,100 ,16 ,1907 ,35596 ,195735 ,0 ,0 
+facebookarchive,JavaScript,,13/05/2014,100 ,23 ,2601 ,28337 ,144293 ,0 ,0 
+facebookresearch,Python ,"Menlo Park, California",29/01/2016,100 ,15 ,2668 ,28153 ,159775 ,0 ,0 
+shadowsocks,C ,,10/12/2012,58 ,16 ,1469 ,87342 ,204696 ,0 ,0 
+mozilla,Python,"Mountain View, California",26/09/2009,100 ,16 ,7895 ,20158 ,77877 ,0 ,0 
+dotnet,PowerShell,,11/10/2014,100 ,6 ,30590 ,52272 ,118066 ,0 ,0 
+twbs,JavaScript,San Francisco,29/11/2012,22 ,6 ,972 ,75506 ,176356 ,0 ,0 
+zeit,JavaScript,Global,6/10/2015,99 ,10 ,3217 ,20977 ,166298 ,0 ,0 
+Netflix,Java,"Los Gatos, California",14/07/2011,100 ,14 ,2512 ,20016 ,124571 ,0 ,0 
+kubernetes,Go,,4/08/2015,68 ,5 ,6814 ,61289 ,154460 ,0 ,0 
+nodejs,JavaScript,,26/11/2014,100 ,9 ,3798 ,28719 ,111395 ,0 ,0 
+spring-projects,Java ,,30/06/2010,100 ,9 ,5778 ,103206 ,142860 ,0 ,0 
+EbookFoundation,Python, virtual,4/09/2015,19 ,6 ,97 ,36214 ,149815 ,0 ,0 
+golang,Go,,2/05/2013,50 ,4 ,7255 ,23660 ,145015 ,0 ,0 
+hashicorp,Go,"San Francisco, CA",1/05/2011,100 ,9 ,6074 ,26345 ,116749 ,0 ,0 
+elastic,GO,,24/02/2014,100 ,18 ,16507 ,40610 ,123183 ,0 ,0 
+apple,swift,"Cupertino, CA",22/01/2015,86 ,10 ,2544 ,20270 ,137835 ,0 ,0 
+laravel,php,,4/08/2011,54 ,7 ,1617 ,38754 ,133044 ,0 ,0 
+ReactiveX,java,,15/01/2014,41 ,15 ,1188 ,18607 ,129178 ,0 ,0 
+flutter,dart,,3/09/2015,32 ,9 ,9423 ,28292 ,127778 ,0 ,0 
+h5bp,JavaScript,,19/10/2011,26 ,5 ,101 ,25474 ,125073 ,0 ,0 
+reduxjs,JavaScript,the moon,2/07/2015,16 ,2 ,330 ,19744 ,122887 ,0 ,0 
+electron,JavaScript,"San Francisco, CA",20/07/2015,75 ,8 ,1958 ,21864 ,121711 ,0 ,0 
+thoughtbot,ruby,USA & London,11/04/2008,99 ,16 ,1068 ,17352 ,102953 ,0 ,0 
+rust-lang,rust,,11/09/2013,100 ,13 ,12620 ,20124 ,117205 ,0 ,0 
+twitter,scala,"San Francisco, CA",30/01/2009,100 ,19 ,2661 ,20026 ,114518 ,0 ,0 
+ant-design,JavaScript,"HangZhou, China",25/04/2015,83 ,4 ,1861 ,34086 ,112868 ,0 ,0 
+docker,go,"San Francisco, CA",11/09/2013,80 ,14 ,9430 ,27877 ,109288 ,0 ,0 
+d3,d3-plugins,"San Francisco, CA",22/03/2012,53 ,1 ,456 ,26504 ,108284 ,0 ,0 
+ethereum,Python,,24/12/2013,100 ,19 ,5602 ,31569 ,89341 ,0 ,0 
+awslabs,Python,"Seattle, WA",18/01/2013,100 ,15 ,3138 ,13823 ,44916 ,0 ,0 
+jquery,JavaScript,,4/04/2009,45 ,6 ,1065 ,34454 ,98307 ,0 ,0 
+ElemeFE,JavaScript,shanghai,9/06/2015,57 ,5 ,3250 ,20098 ,97258 ,0 ,0 
+spatie,php,"Antwerp, Belgium",10/05/2014,100 ,4 ,373 ,7572 ,58128 ,0 ,0 
+Automattic,php,worldwide,1/07/2011,100 ,14 ,7543 ,12177 ,65787 ,0 ,0 
+doctrine,php,Planet Earth,24/02/2010,74 ,6 ,2690 ,8397 ,93948 ,0 ,0 
+pytorch,Python ,where the eigens are valued,13/08/2016,46 ,14 ,8323 ,27390 ,94170 ,0 ,0 
+ionic-team,TypeScript,"Madison, Boston",30/05/2017,99 ,6 ,5072 ,29243 ,81518 ,0 ,0 
+expressjs,JavaScript,,11/10/2013,41 ,2 ,711 ,14001 ,93605 ,0 ,0 
+JetBrains,Java,"St.Petersburg, Munich, Moscow, Prague, Boston, Novosibirsk, Amsterdam",27/06/2011,100 ,15 ,1796 ,23058 ,75056 ,0 ,0 
+openai,Python,,4/10/2015,88 ,13 ,1737 ,22946 ,92244 ,0 ,0 
+30-seconds,JavaScript,,22/09/2018,14 ,6 ,60 ,9287 ,90410 ,0 ,0 
+Azure,Python,"Redmond, WA & the cloud",4/03/2014,100 ,21 ,13651 ,30924 ,33153 ,0 ,0 
+Homebrew,Ruby,,6/03/2012,33 ,6 ,264 ,38447 ,87897 ,0 ,0 
+rails,Ruby,,2/04/2008,97 ,7 ,1798 ,28662 ,84678 ,0 ,0 
+Yalantis,Swift,"Ukraine, Dnipro",26/04/2011,71 ,7 ,431 ,14502 ,83784 ,0 ,0 
+aws,Python,"Seattle, WA",28/08/2012,100 ,18 ,6864 ,18849 ,66134 ,0 ,0 
+FormidableLabs,JavaScript,"Seattle, WA",24/07/2013,100 ,9 ,1377 ,5095 ,76471 ,0 ,0 
+NVIDIA,Python,"Santa Clara, CA",11/05/2012,100 ,13 ,2745 ,14448 ,77264 ,0 ,0 
+Shopify,Ruby,,22/04/2008,100 ,13 ,1962 ,7005 ,56958 ,0 ,0 
+GoogleCloudPlatform,Go,,16/11/2012,100 ,16 ,2723 ,23730 ,41150 ,0 ,0 
+uber,JavaScript,70+ countries and counting.,28/12/2010,100 ,18 ,2385 ,7838 ,71545 ,0 ,0 
+pallets,Python,,18/01/2016,16 ,2 ,393 ,18849 ,79045 ,0 ,0 
+webpack,JavaScript,,7/08/2012,47 ,2 ,1148 ,13615 ,78052 ,0 ,0 
+socketio,JavaScript,Automattic,17/01/2015,24 ,5 ,1628 ,16813 ,78299 ,0 ,0 
+reactjs,JavaScript,Everywhere,16/01/2014,82 ,4 ,2322 ,17456 ,77745 ,0 ,0 
+atom,JavaScript,"San Francisco, CA",29/09/2011,100 ,6 ,4182 ,21445 ,68513 ,0 ,0 
+mapbox,JavaScript,Washington DC,5/02/2011,100 ,14 ,4125 ,9202 ,41347 ,0 ,0 
+Ramotion,Swift,"San Francisco, CA",25/11/2013,39 ,5 ,175 ,8926 ,73635 ,0 ,0 
+ansible,Python,,7/03/2012,98 ,8 ,8681 ,33655 ,71378 ,0 ,0 
+spotify,Java,"Stockholm, Sweden",24/04/2010,100 ,18 ,2034 ,9307 ,55480 ,0 ,0 
+Babel,JavaScript,Flavortown,9/11/2014,58 ,3 ,1649 ,8454 ,69977 ,0 ,0 
+FortAwesome,JavaScript,"Cambridge, MA",6/03/2012,15 ,6 ,5568 ,11448 ,69551 ,0 ,0 
+apachecn,HTML,China,28/12/2016,76 ,8 ,281 ,15834 ,49315 ,0 ,0 
+ossu,JavaScript ,,4/10/2015,11 ,2 ,68 ,10880 ,69696 ,0 ,0 
+tc39,HTML,The web,10/05/2012,100 ,4 ,1632 ,3286 ,55172 ,0 ,0 
+segmentio,JavaScript,"San Francisco, CA",31/05/2011,100 ,13 ,1144 ,4181 ,41238 ,0 ,0 
+HubSpot,Java,"Cambridge, MA",8/07/2010,100 ,11 ,975 ,5006 ,40400 ,0 ,0 
+Bilibili,C,"Shanghai, China",18/04/2015,53 ,13 ,3131 ,14521 ,67563 ,0 ,0 
+moby,Go,,11/04/2017,19 ,4 ,4393 ,18348 ,65903 ,0 ,0 
+udacity,Jupyter Notebook,"Mountain View, CA",3/07/2012,100 ,16 ,14122 ,106276 ,28420 ,0 ,0 
+jenkinsci,Java,"Santa Clara, CA",22/07/2009,97 ,5 ,870 ,12389 ,22612 ,0 ,0 
+GoogleChrome,JavaScript,,26/05/2012,30 ,7 ,1593 ,17771 ,64140 ,0 ,0 
+GoThinkster,JavaScript,,31/08/2014,59 ,17 ,693 ,11930 ,64296 ,0 ,0 
+Unity-Technologies,C++,"Copenhagen, Denmark",4/10/2010,99 ,12 ,1350 ,10251 ,41698 ,0 ,0 
+Semantic-Org,JavaScript , New York,29/10/2013,72 ,3 ,1561 ,10767 ,61969 ,0 ,0 
+codrops,JavaScript,,21/06/2010,99 ,3 ,392 ,6641 ,27611 ,0 ,0 
+firebase,Java,"San Francisco, CA",17/01/2012,81 ,16 ,2028 ,26501 ,60971 ,0 ,0 
+linkedin,Java,"Sunnyvale, CA, USA",8/08/2010,100 ,12 ,1998 ,9565 ,52985 ,0 ,0 
+akveo,TypeScript,Minsk,13/04/2015,27 ,6 ,2193 ,14047 ,60505 ,0 ,0 
+eclipse,Java,,23/02/2009,100 ,12 ,11305 ,15578 ,38514 ,0 ,0 
+mongodb,Go,,9/01/2009,100 ,20 ,971 ,17360 ,55291 ,0 ,0 
+django,Python,Internet,7/10/2008,19 ,4 ,616 ,23857 ,59380 ,0 ,0 
+mui-org,JavaScript,the browser,15/11/2017,6 ,2 ,525 ,16859 ,59509 ,0 ,0 
+graphql,JavaScript,"Menlo Park, CA",20/06/2015,18 ,5 ,660 ,6494 ,58520 ,0 ,0 
+didi,Java,"Beijing, China",15/04/2017,49 ,16 ,469 ,8534 ,58075 ,0 ,0 
