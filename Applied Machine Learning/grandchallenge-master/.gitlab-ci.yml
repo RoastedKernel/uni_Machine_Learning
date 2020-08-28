@@ -1,0 +1,39 @@
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+  - echo '[1/7] Installing Jupyter prerequisites...'
+  - apk --update add bash build-base bzip2 ca-certificates curl openssh-client patch python3-dev readline-dev tar tini wget zeromq-dev linux-headers py3-pip
+
+  - echo '[2/7] Installing Jupyter Notebook...'
+  - pip3 install --no-cache-dir notebook
+
+  - echo '[3/7] Creating public folder...'
+  - mkdir public
+
+  - echo '[4/7] Copying assets to public folder...'
+  - ls -A | grep -Ev "public|.git" | while read file; do cp -r "$file" public; done
+
+  - echo '[5/7] Exporting Notebooks to HTML'
+  - cd public
+  - jupyter nbconvert -y --to 'html' *.ipynb
+
+  - echo '[6/7] Generating index.html...'
+  - echo '<!DOCTYPE html><head></head>' > index.htm
+  - echo '<body><h3>Available Jupyter Exports</h3>' >> index.htm
+  #Add entries
+  - ls | grep .html | while read file; do echo "<a href='$file' id='jump'>$file</a><br>" >> index.htm; done
+  #Auto redirect if only 1 notebook exists
+  - echo '<script>if ( (document.body.innerHTML.match(/<br>/g) || []).length === 2) window.location.replace(document.getElementById("jump").href);</script>' >> index.htm
+  - echo "<footer>Last Generated at $(date)</footer>" >> index.htm
+  - echo '</body>' >> index.htm
+  - mv index.htm index.html
+
+  - echo '[7/7] Cleanup'
+  - ls -A | grep -v '.html' | while read file; do rm -rf $file; done
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
