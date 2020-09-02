@@ -29,7 +29,7 @@
 \begin{document}
 
 %%%%%%%%% TITLE
-\title{Assignment 1: Predict diabetes via Perceptron}
+\title{Assignment 1: Support Vector Machines}
 
 \author{Moaz Mohamed\\
 The University of Adelaide\\
@@ -60,8 +60,8 @@ Adelaide SA 5005\\
 %%%%%%%%% BODY TEXT
 \section{Introduction}
 
-Over the last few years, deep learning had a significant impact in the medical field. 
-The application of numerous Deep learning algorithms have been implemented in different sector of the medical field. In this paper Perceptron algorithm will be explored and its performance will be investigated on classification task to predict diabetes on the provided dataset.In addition to a complete review of the Perceptron algorithm describing its strength and weakness. An alternative algorithm will be introduced and explored that can mitigate some of the inherit weakness of Perceptron. 
+Over the last few years, Machine learning had a significant impact in the current technological landscape. 
+The application of numerous Deep learning algorithms have been implemented in different sectors. In this paper Support vector machine (SVM) algorithm will be explored and its performance will be investigated on classification task on the provided dataset.In addition to a complete review of the SVM algorithm describing its strength and weakness.
 %-------------------------------------------------------------------------
 \section{Methodology and Background}
 
@@ -69,7 +69,7 @@ The application of numerous Deep learning algorithms have been implemented in di
 
 \subsection{Support Vector Machines}
 
-An alternative approach to pattern recognition is using Support Vector Machines(SVM). Which in hindsight is very similar to the perceptron algorithm but SVM ensures finding a hyperplane  that can separate between the two classes with maximum margin. the decision for either positive or negative classification follows the eq \ref{eq:dbsvm}. 
+A famous approach to pattern recognition is using Support Vector Machines (SVM). Which in hindsight is very similar to the perceptron algorithm but SVM ensures finding a hyperplane  that can separate between the two classes with maximum margin. the decision for either positive or negative classification follows the eq \ref{eq:dbsvm}. 
 
 
 \begin{equation}
@@ -171,7 +171,7 @@ b =\dfrac{1}{y_{j}}-w^{T}x_{j}
 \end{equation}
  
 It is interesting to note that in equation \ref{eqn:weight} the weight vector can be formulated as summation of alpha, label and the support vectors. Hence the number of the support vectors is depended on $\alpha _{i}$ as some values of $\alpha _{i}$ will be zero.
-instead of in the primal problem where the $\overrightarrow{w}$ is obtained directly from solving the primal optimization problem. Such difference allows for the usage for something called the "Kernel Trick".
+instead of in the primal problem where the $\overrightarrow{w}$ is obtained directly from solving the primal optimization problem which can be computationally expensive as the number of dimensions increases hence in the primal problem all the points have to be queried unlike in Dual problem $\overrightarrow{w}$ can be obtained from only non zero values of $\alpha _{i}$. Also such difference allows for the usage for something called the "Kernel Trick".
  
 \begin{equation}
 L_{D}\left( \alpha \right) =\sum ^{n}_{i=1}\alpha _{i}-\dfrac{1}{2}\sum ^{n}_{i=1}\sum ^{n}_{j=1}\alpha _{i}\alpha _{j}y_{i}y_{j}K\left( x_{j},x_{i}\right) 
@@ -202,7 +202,7 @@ The optimization problems for both equations \ref{eqn:lk} and \ref{eqn:l} except
 \section{Experimental Analysis.}
 
 \subsection{SVM Primal and Dual}
-By utilizing the support vectors in eq \ref{eqn:weight} SVM is able to find the support vectors that can maximize the margin between the two classes as demonstrated in equation \ref{eqn:l} but SVM without utilizing a kernel SVM has the same weakness as Perceptron in that regard. But when a kernel is utilized project the data into higher dimensions SVM is capable of finding a hyperplane between the two classes as demonstrated in figure \ref{fig:svm_exp_k}.
+Sklearn toy datasets (classification and circles) have been used to for demonstration purposes. By utilizing the support vectors in eq \ref{eqn:weight} SVM is able to find the support vectors that can maximize the margin between the two classes as demonstrated in equation \ref{eqn:l} but SVM without utilizing a kernel SVM has the same weakness as Perceptron \cite{Rosenblatt1958} \cite{Minsky1969} \cite{Murphy2017} in that regard. But when a kernel is utilized project the data into higher dimensions SVM is capable of finding a hyperplane between the two classes as demonstrated in figure \ref{fig:svm_exp_k}.
 
 \begin{figure}[htb]
   \includegraphics[width=\linewidth]{svm_lin_non_sep.png}
@@ -222,7 +222,7 @@ By utilizing the support vectors in eq \ref{eqn:weight} SVM is able to find the 
 
 \begin{figure}[htb]
   \includegraphics[width=\linewidth]{svm_k_non.png}
-  \caption{SVM with polynomial kernel applied.Decision boundary in non-linearly separable data}
+  \caption{SVM with polynomial kernel applied. Decision boundary in non-linearly separable data}
   \label{fig:svm_exp_k}
 \end{figure}
 
@@ -230,9 +230,8 @@ By utilizing the support vectors in eq \ref{eqn:weight} SVM is able to find the 
 
 
 
-\section{Performance on diabetes data-set}
-In table \ref{tab:res} are the results. with aggressive hyper-parameter tuning all algorithms did perform with no apparent close contender. the diabetes data-set is full of missing values and noise with careful data cleaning steps i expect better results. 
-
+\subsection{Performance on toy and provided data-set}
+In table \ref{tab:SVM_soft} and \ref{tab:SVM_hard} are the wights and biases produced by using CVXPY package to solve both primal and dual problems and the comparison with sklearn. As it can be seen in both tables the values are quite quite similar and acceptable error margin on the sklearn toy datasets. the performance on the provided dataset is shown in \ref{tab:SVM_soft_data} with the same C parameters for all versions of SVM. with aggressive hyper-parameter tuning obtaining even a higher performance should be possible using grid-search with cross validation in mind but due to limited computation resources that have been abandoned to concentrate on the mathematical foundation of the algorithm itself.
 
 
 \begin{table}[htb]
@@ -241,11 +240,11 @@ In table \ref{tab:res} are the results. with aggressive hyper-parameter tuning a
 \toprule
 Algorithm   & W                           & bias       & accuracy  \\ 
 \hline
-Dual Soft   & {[} 0.7589323, -0.65157069] & 0.29015581 & 59\%      \\ 
+Dual Soft   & {[} 0.75893, -0.651570] & 0.290155 & 59\%      \\ 
 \hline
-Primal Soft & {[} 0.7588472, -0.65150936] & 0.29023341 & 59\%      \\ 
+Primal Soft & {[} 0.75884, -0.651509] & 0.290233 & 59\%      \\ 
 \hline
-sklearn     & {[} 0.7588628, -0.65153027] & 0.29022996 & 59\%      \\
+sklearn     & {[} 0.75886, -0.651530] & 0.290229 & 59\%      \\
 \bottomrule
 \end{tabular}
 \caption{SVM implementation for Soft margin}
@@ -260,11 +259,11 @@ sklearn     & {[} 0.7588628, -0.65153027] & 0.29022996 & 59\%      \\
 \toprule
 Algorithm   & W                        & bias      & accuracy  \\ 
 \hline
-Dual Hard   & {[}-1.754555, 0.0777976] & 0.0037710 & 100\%     \\ 
+Dual Hard   & {[}-1.75455, 0.077797] & 0.00377 & 100\%     \\ 
 \hline
-Primal Hard & {[}-1.754516, 0.077783]  & 0.0038148 & 100\%     \\ 
+Primal Hard & {[}-1.75451, 0.077783]  & 0.0038 & 100\%     \\ 
 \hline
-sklearn     & {[}-1.740545, 0.077163]  & 0.0117781 & 100\%     \\
+sklearn     & {[}-1.74054, 0.077163]  & 0.0117 & 100\%     \\
 \bottomrule
 \end{tabular}
 \caption{SVM implementation for Hard margin}
@@ -273,7 +272,7 @@ sklearn     & {[}-1.740545, 0.077163]  & 0.0117781 & 100\%     \\
 
 
 
-\begin{table}
+\begin{table}[htb]
 \centering
 \begin{tabular}{|l|l|l|l|} 
 \toprule
@@ -291,11 +290,9 @@ sklearn     & 97.75\%      & 96.7\%      & 1000  \\
 \end{table}
 
 \section{Conclusion}
-Perceptron and different variations of Support vector machines algorithm have been explored and analyzed. mathematical formulation of all the algorithms have been studied. decision boundaries for have been made for a careful study of the behavior of various algorithms in different data situations. Advantageous and weakness have been identified for all the explored algorithms. Perceptron and its creator have created and paved the way for the emergence of the field of machine learning. all subsequent algorithms builds on top of the weakness of the previous work as seen in perceptron, SVM and later kernalised SVM.
-\section{Code}
+Different variations of Support vector machines algorithm have been explored and analysed. mathematical formulation of all the algorithms have been studied. decision boundaries for have been made for a careful study of the behaviour of various algorithms in different data situations. Advantageous and weakness have been identified for all the explored algorithms. SVM provides a very beautiful mathematical assay for its excellent performance especially for its ability to use different kernel to suit non-linear data. the math is elegant and provides excellent intuition for what is exactly the algorithm is doing to find the pattern in the data. 
 
-all the code for this assignment is provided in this GitHub repo 
-\url{https://github.com/RoastedKernel/uni_Machine_Learning}
+
 \bibliography{egbib.bib} 
 \bibliographystyle{ieeetr}
 
