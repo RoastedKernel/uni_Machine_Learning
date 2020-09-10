@@ -126,7 +126,7 @@ subject to
 y_{i}\left( w^{T}x_{i}+b\right) \geq 1 , \forall j
 \end{equation}
 
-Such formulation does work on finding the optimal hyperplane and it can be solved with  optimization tool such as CVXOPT or MOSER. a slack variable can also be added to relax the SVM with $C$ as regularization parameter. 
+Such formulation does work on finding the optimal hyperplane and it can be solved with  optimization tool such as CVXOPT, MOSER and SCS. a slack variable can also be added to relax the SVM with $C$ as regularization parameter. 
 
 minimization of 
 
@@ -231,7 +231,7 @@ Sklearn toy datasets (classification and circles) have been used to for demonstr
 
 
 \subsection{Performance on toy and provided data-set}
-In table \ref{tab:SVM_soft} and \ref{tab:SVM_hard} are the wights and biases produced by using CVXPY package to solve both primal and dual problems and the comparison with sklearn. As it can be seen in both tables the values are quite quite similar and acceptable error margin on the sklearn toy datasets. the performance on the provided dataset is shown in \ref{tab:SVM_soft_data} with the same C parameters for all versions of SVM. with aggressive hyper-parameter tuning obtaining even a higher performance should be possible using grid-search with cross validation in mind but due to limited computation resources that have been abandoned to concentrate on the mathematical foundation of the algorithm itself.
+In table \ref{tab:SVM_soft} and \ref{tab:SVM_hard} are the wights and biases produced by using CVXPY package to solve both primal and dual problems and the comparison with sklearn. As it can be seen in both tables the values are quite quite similar and acceptable error margin on the sklearn toy datasets. the performance on the provided dataset is shown in \ref{tab:SVM_soft_data} with the same C parameters for all versions of SVM. with aggressive hyper-parameter tuning obtaining even a higher accuracy should be possible using grid-search with cross validation in mind but due to limited computation resources limited number of C values with cross-validation of 3 has been attempted and resulted in C value of (70,90) which corresponds to accuracy of (97.4\%,97.2\%) for both dual and primal respectively on the test-set. A more wide range of C value could be attempted with cross-validation of 5 or 10 but that have been abandoned to concentrate on the mathematical foundation of the algorithm itself.
 
 
 \begin{table}[htb]
@@ -290,7 +290,7 @@ sklearn     & 97.75\%      & 96.7\%      & 1000  \\
 \end{table}
 
 \section{Conclusion}
-Different variations of Support vector machines algorithm have been explored and analysed. mathematical formulation of all the algorithms have been studied. decision boundaries for have been made for a careful study of the behaviour of various algorithms in different data situations. Advantageous and weakness have been identified for all the explored algorithms. SVM provides a very beautiful mathematical assay for its excellent performance especially for its ability to use different kernel to suit non-linear data. the math is elegant and provides excellent intuition for what is exactly the algorithm is doing to find the pattern in the data. 
+Different variations of Support vector machines algorithm have been explored and analyzed. mathematical formulation of all the algorithms have been studied. decision boundaries for have been made for a careful study of the behavior of various algorithms in different data situations. Advantageous and weakness have been identified for all the explored algorithms. SVM provides a very beautiful mathematical assay for its excellent performance especially for its ability to use different kernel to suit non-linear data. the math is elegant and provides excellent intuition for what is exactly the algorithm is doing to find the pattern in the data. 
 
 
 \bibliography{egbib.bib} 
