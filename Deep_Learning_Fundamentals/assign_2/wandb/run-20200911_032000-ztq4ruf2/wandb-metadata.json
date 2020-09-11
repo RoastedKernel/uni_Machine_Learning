@@ -1,0 +1,28 @@
+{
+    "root": "/home/moazmohamed/Desktop/data/uni_subjects/uni_Machine_Learning",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/RoastedKernel/uni_Machine_Learning.git",
+        "commit": "5ffd1590419313cda5fd3078b7c5b58ed2cf8226"
+    },
+    "email": null,
+    "startedAt": "2020-09-10T17:12:29.176791",
+    "host": "pop-os",
+    "username": "moazmohamed",
+    "executable": "/home/moazmohamed/miniconda3/envs/ML_CV/bin/python",
+    "os": "Linux-5.4.0-7642-generic-x86_64-with-glibc2.10",
+    "python": "3.8.2",
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "/home/moazmohamed/.local/share/jupyter/runtime/kernel-dc915c14-57c3-427a-9215-bf4979965c26.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "drawn-sweep-4",
+    "project": "ResNet_Cifar10_HyperParam",
+    "heartbeatAt": "2020-09-10T18:03:59.656729"
+}
