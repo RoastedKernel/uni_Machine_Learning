@@ -1,0 +1,28 @@
+{
+    "root": "/home/moazmohamed/Desktop/data/uni_subjects/uni_Machine_Learning",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/RoastedKernel/uni_Machine_Learning.git",
+        "commit": "23df20b9488dbd746dcd4c9d162fac4f77ccc8b9"
+    },
+    "email": null,
+    "startedAt": "2020-09-12T00:13:33.958095",
+    "host": "pop-os",
+    "username": "moazmohamed",
+    "executable": "/home/moazmohamed/miniconda3/envs/ML_CV/bin/python",
+    "os": "Linux-5.4.0-7642-generic-x86_64-with-glibc2.10",
+    "python": "3.8.2",
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "/home/moazmohamed/.local/share/jupyter/runtime/kernel-8e2f406e-dee6-4938-8213-09e2efce48b3.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "polar-sweep-1",
+    "project": "ResNet_Cifar10_HyperParam_Adam",
+    "heartbeatAt": "2020-09-12T00:17:29.798951"
+}

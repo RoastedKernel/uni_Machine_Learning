@@ -1,0 +1,28 @@
+{
+    "root": "/home/moazmohamed/Desktop/data/uni_subjects/uni_Machine_Learning",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/RoastedKernel/uni_Machine_Learning.git",
+        "commit": "23df20b9488dbd746dcd4c9d162fac4f77ccc8b9"
+    },
+    "email": null,
+    "startedAt": "2020-09-11T17:22:50.371700",
+    "host": "pop-os",
+    "username": "moazmohamed",
+    "executable": "/home/moazmohamed/miniconda3/envs/ML_CV/bin/python",
+    "os": "Linux-5.4.0-7642-generic-x86_64-with-glibc2.10",
+    "python": "3.8.2",
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "/home/moazmohamed/.local/share/jupyter/runtime/kernel-9d980ebe-bf51-473c-93ac-8463ec840119.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "atomic-sweep-1",
+    "project": "ResNet_Cifar10_HyperParam_Adam",
+    "heartbeatAt": "2020-09-11T17:30:46.181685"
+}
