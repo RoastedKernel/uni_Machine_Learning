@@ -1,0 +1,28 @@
+{
+    "root": "/home/moazmohamed/Desktop/data/uni_subjects/uni_Machine_Learning",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/RoastedKernel/uni_Machine_Learning.git",
+        "commit": "4524b232c325248688f8f98fb28ab37568a9c6ff"
+    },
+    "email": null,
+    "startedAt": "2020-09-12T04:22:40.000695",
+    "host": "pop-os",
+    "username": "moazmohamed",
+    "executable": "/home/moazmohamed/miniconda3/envs/ML_CV/bin/python",
+    "os": "Linux-5.4.0-7642-generic-x86_64-with-glibc2.10",
+    "python": "3.8.2",
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "/home/moazmohamed/.local/share/jupyter/runtime/kernel-e9efe02d-302a-4d7b-9f7c-ccce9767fd46.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "bumbling-sweep-1",
+    "project": "ResNet_Cifar10_HyperParam_Adam",
+    "heartbeatAt": "2020-09-12T05:12:35.377323"
+}
