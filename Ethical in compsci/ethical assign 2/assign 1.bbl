@@ -1,20 +1,55 @@
 \begin{thebibliography}{xx}
 
-\harvarditem[Hauge et~al.]{Hauge, Stevenson, Rossmo \harvardand\ {Le
-  Comber}}{2016}{Hauge2016}
-Hauge, M.~V., Stevenson, M.~D., Rossmo, D.~K. \harvardand\ {Le Comber}, S.~C.
-  \harvardyearleft 2016\harvardyearright , `{Tagging Banksy: using geographic
-  profiling to investigate a modern art mystery}', {\em Journal of Spatial
-  Science} {\bf 61}(1),~185--190.
-\newline\harvardurl{http://dx.doi.org/10.1080/14498596.2016.1138246}
+\harvarditem{Driver}{2014}{sep-utilitarianism-history}
+Driver, J.  \harvardyearleft 2014\harvardyearright , {The History of
+  Utilitarianism}, {\em in} E.~N. Zalta, ed., `The {Stanford} Encyclopedia of
+  Philosophy', winter 2014 edn, Metaphysics Research Lab, Stanford University.
 
-\harvarditem[Zook et~al.]{Zook, Barocas, Boyd, Crawford, Keller, Gangadharan,
-  Goodman, Hollander, Koenig, Metcalf, Narayanan, Nelson \harvardand\
-  Pasquale}{2017}{Zook2017}
-Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S.~P.,
-  Goodman, A., Hollander, R., Koenig, B.~A., Metcalf, J., Narayanan, A.,
-  Nelson, A. \harvardand\ Pasquale, F.  \harvardyearleft 2017\harvardyearright
-  , `{Ten simple rules for responsible big data research}', {\em PLoS
-  Computational Biology} {\bf 13}(3),~1--10.
+\harvarditem[Feinberg et~al.]{Feinberg, Sur, Wu, Husic, Mai, Li, Sun, Yang,
+  Ramsundar \harvardand\ Pande}{2018}{Feinberg2018}
+Feinberg, E.~N., Sur, D., Wu, Z., Husic, B.~E., Mai, H., Li, Y., Sun, S., Yang,
+  J., Ramsundar, B. \harvardand\ Pande, V.~S.  \harvardyearleft
+  2018\harvardyearright , `{PotentialNet for Molecular Property Prediction}',
+  {\em ACS Central Science} {\bf 4}(11),~1520--1530.
+
+\harvarditem{Harris \harvardand\ Wyndham}{2015}{Harris2015}
+Harris, T.~L. \harvardand\ Wyndham, J.~M.  \harvardyearleft
+  2015\harvardyearright , `{Data Rights and Responsibilities: A Human Rights
+  Perspective on Data Sharing}', {\em Journal of Empirical Research on Human
+  Research Ethics} {\bf 10}(3),~334--337.
+
+\harvarditem{Hempton \harvardand\ Bhatia}{2020}{Hempton2020}
+Hempton, C. \harvardand\ Bhatia, N.  \harvardyearleft 2020\harvardyearright ,
+  `{Deciding For When You Can't Decide: The Medical Treatment Planning and
+  Decisions Act 2016 (Vic)}', {\em Journal of Bioethical Inquiry} {\bf
+  17}(1),~109--120.
+
+\harvarditem[O'Donohue et~al.]{O'Donohue, Snipes, Dalto, Soto, Maragakis
+  \harvardand\ Im}{2014}{ODonohue2014}
+O'Donohue, W., Snipes, C., Dalto, G., Soto, C., Maragakis, A. \harvardand\ Im,
+  S.  \harvardyearleft 2014\harvardyearright , `{The Ethics of Enhanced
+  Interrogations and Torture: A Reappraisal of the Argument}', {\em Ethics and
+  Behavior} {\bf 24}(2),~109--125.
+
+\harvarditem{Parker \harvardand\ Bull}{2015}{Parker2015}
+Parker, M. \harvardand\ Bull, S.  \harvardyearleft 2015\harvardyearright ,
+  `{Sharing Public Health Research Data: Toward the Development of Ethical
+  Data-Sharing Practice in Low- and Middle-Income Settings}', {\em Journal of
+  Empirical Research on Human Research Ethics} {\bf 10}(3),~217--224.
+
+\harvarditem[Popova et~al.]{Popova, Isayev \harvardand\
+  Tropsha}{2018}{Popova2018}
+Popova, M., Isayev, O. \harvardand\ Tropsha, A.  \harvardyearleft
+  2018\harvardyearright , `{Deep reinforcement learning for de novo drug
+  design}', {\em Science Advances} {\bf 4}(7),~1--15.
+
+\harvarditem[Yao et~al.]{Yao, Zhang, Zhang, Duan, Xie, Pan, Peng, Huang, Zhang,
+  Xu, Xu, Zhou \harvardand\ Wang}{2020}{Yao2020}
+Yao, H., Zhang, N., Zhang, R., Duan, M., Xie, T., Pan, J., Peng, E., Huang, J.,
+  Zhang, Y., Xu, X., Xu, H., Zhou, F. \harvardand\ Wang, G.  \harvardyearleft
+  2020\harvardyearright , `{Severity Detection for the Coronavirus Disease 2019
+  (COVID-19) Patients Using a Machine Learning Model Based on the Blood and
+  Urine Tests}', {\em Frontiers in Cell and Developmental Biology} {\bf
+  8}(July),~1--10.
 
 \end{thebibliography}
