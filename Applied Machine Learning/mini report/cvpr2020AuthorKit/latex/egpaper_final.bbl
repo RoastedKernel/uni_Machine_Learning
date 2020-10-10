@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{Feinberg2018}
+Evan~N. Feinberg, Debnil Sur, Zhenqin Wu, Brooke~E. Husic, Huanghao Mai, Yang
+  Li, Saisai Sun, Jianyi Yang, Bharath Ramsundar, and Vijay~S. Pande.
+\newblock {PotentialNet for Molecular Property Prediction}.
+\newblock {\em ACS Central Science}, 4(11):1520--1530, 2018.
+
+\bibitem{Gilmer2017}
+Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
+  George~E. Dahl.
+\newblock {Neural message passing for quantum chemistry}.
+\newblock {\em 34th International Conference on Machine Learning, ICML 2017},
+  3:2053--2070, 2017.
+
+\bibitem{Hamilton2017}
+William~L. Hamilton, Rex Ying, and Jure Leskovec.
+\newblock {Inductive representation learning on large graphs}.
+\newblock {\em Advances in Neural Information Processing Systems},
+  2017-December(Nips):1025--1035, 2017.
+
+\bibitem{Kipf2017}
+Thomas~N. Kipf and Max Welling.
+\newblock {Semi-supervised classification with graph convolutional networks}.
+\newblock {\em 5th International Conference on Learning Representations, ICLR
+  2017 - Conference Track Proceedings}, pages 1--14, 2017.
+
+\bibitem{Noe2020}
+Frank No{\'{e}}, Gianni {De Fabritiis}, and Cecilia Clementi.
+\newblock {Machine learning for protein folding and dynamics}.
+\newblock {\em Current Opinion in Structural Biology}, 60:77--84, 2020.
+
+\bibitem{Toropov2011}
+A.~A. Toropov, A.~P. Toropova, S.~E. Martyanov, E. Benfenati, G. Gini, D.
+  Leszczynska, and J. Leszczynski.
+\newblock {Comparison of SMILES and molecular graphs as the representation of
+  the molecular structure for QSAR analysis for mutagenic potential of
+  polyaromatic amines}.
+\newblock {\em Chemometrics and Intelligent Laboratory Systems},
+  109(1):94--100, 2011.
+
+\bibitem{Yao2020}
+Haochen Yao, Nan Zhang, Ruochi Zhang, Meiyu Duan, Tianqi Xie, Jiahui Pan, Ejun
+  Peng, Juanjuan Huang, Yingli Zhang, Xiaoming Xu, Hong Xu, Fengfeng Zhou, and
+  Guoqing Wang.
+\newblock {Severity Detection for the Coronavirus Disease 2019 (COVID-19)
+  Patients Using a Machine Learning Model Based on the Blood and Urine Tests}.
+\newblock {\em Frontiers in Cell and Developmental Biology}, 8(July):1--10,
+  2020.
+
+\end{thebibliography}
