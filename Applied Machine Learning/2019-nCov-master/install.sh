@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # create a new environment named nCov_env
-conda create --name nCov_env python=3.5 pip
-conda activate nCov_env
+conda create --name med_env python=3.5 pip
+conda activate med_env
 
 
 # install cython

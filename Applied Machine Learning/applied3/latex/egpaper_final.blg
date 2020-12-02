@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: egpaper_final.aux
+The style file: ieee_fullname.bst
+Database file #1: egbib.bib
+Warning--empty journal in Arik2019
+You've used 14 entries,
+            2120 wiz_defined-function locations,
+            599 strings with 6927 characters,
+and the built_in function-call counts, 5479 in all, are:
+= -- 528
+> -- 336
+< -- 1
++ -- 132
+- -- 118
+* -- 460
+:= -- 942
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 101
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 154
+empty$ -- 364
+format.name$ -- 118
+if$ -- 1080
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 72
+num.names$ -- 28
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 87
+quote$ -- 0
+skip$ -- 108
+stack$ -- 0
+substring$ -- 370
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 1
+while$ -- 53
+width$ -- 16
+write$ -- 151
+(There was 1 warning)

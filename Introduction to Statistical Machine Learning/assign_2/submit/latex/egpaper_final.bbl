@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{Rosenblatt1958}
+F.~Rosenblatt, ``{The perceptron: A probabilistic model for information storage
+  and organization in the brain},'' {\em Psychological Review}, vol.~65, no.~6,
+  pp.~386--408, 1958.
+
+\bibitem{Murphy2017}
+C.~Murphy, P.~Gray, and G.~Stewart, ``{Verified perceptron convergence
+  theorem},'' {\em MAPL 2017 - Proceedings of the 1st ACM SIGPLAN International
+  Workshop on Machine Learning and Programming Languages, co-located with PLDI
+  2017}, pp.~43--50, 2017.
+
+\bibitem{Minsky1969}
+M.~Minsky and S.~Papert, ``{Perceptrons: expanded edition},'' {\em MIT Press
+  Cambridge MA}, vol.~522, p.~20, 1969.
+
+\bibitem{Cover1965}
+M.~Cover, ``{Inequalities Applications Pattern},'' pp.~326--334, 1965.
+
+\end{thebibliography}

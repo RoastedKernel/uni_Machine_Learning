@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{Arik2019}
+Sercan~O. Arik and Tomas Pfister.
+\newblock {TabNet: Attentive Interpretable Tabular Learning}.
+\newblock 2019.
+
+\bibitem{Arya2013}
+Subhash~C. Arya and Nirmala Agarwal.
+\newblock {Comment on: Leishmaniasis: an update of current pharmacotherapy}.
+\newblock {\em Expert Opinion on Pharmacotherapy}, 14(9):1275--1276, 2013.
+
+\bibitem{Barrett2012}
+Michael~P. Barrett and Simon~L. Croft.
+\newblock {Management of trypanosomiasis and leishmaniasis}.
+\newblock {\em British Medical Bulletin}, 104(1):175--196, 2012.
+
+\bibitem{Chappuis2007}
+Fran{\c{c}}ois Chappuis, Shyam Sundar, Asrat Hailu, Hashim Ghalib, Suman Rijal,
+  Rosanna~W. Peeling, Jorge Alvar, and Marleen Boelaert.
+\newblock {Visceral leishmaniasis: What are the needs for diagnosis, treatment
+  and control?}
+\newblock {\em Nature Reviews Microbiology}, 5(11):873--882, 2007.
+
+\bibitem{Dorlo2012}
+Thomas~P.C. Dorlo, Manica Balasegaram, Jos~H. Beijnen, and Peter~J. De~vries.
+\newblock {Miltefosine: A review of its pharmacology and therapeutic efficacy
+  in the treatment of leishmaniasis}.
+\newblock {\em Journal of Antimicrobial Chemotherapy}, 67(11):2576--2597, 2012.
+
+\bibitem{Gilmer2017}
+Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and
+  George~E. Dahl.
+\newblock {Neural message passing for quantum chemistry}.
+\newblock {\em 34th International Conference on Machine Learning, ICML 2017},
+  3:2053--2070, 2017.
+
+\bibitem{Hamilton2017}
+William~L. Hamilton, Rex Ying, and Jure Leskovec.
+\newblock {Inductive representation learning on large graphs}.
+\newblock {\em Advances in Neural Information Processing Systems},
+  2017-Decem(Nips):1025--1035, 2017.
+
+\bibitem{Kipf2017}
+Thomas~N. Kipf and Max Welling.
+\newblock {Semi-supervised classification with graph convolutional networks}.
+\newblock {\em 5th International Conference on Learning Representations, ICLR
+  2017 - Conference Track Proceedings}, pages 1--14, 2017.
+
+\bibitem{Noe2020}
+Frank No{\'{e}}, Gianni {De Fabritiis}, and Cecilia Clementi.
+\newblock {Machine learning for protein folding and dynamics}.
+\newblock {\em Current Opinion in Structural Biology}, 60:77--84, 2020.
+
+\bibitem{T.Jacobs2011}
+Robert {T. Jacobs}, Bakela Nare, and Margaret {A. Phillips}.
+\newblock {State of the Art in African Trypanosome Drug Discovery}.
+\newblock {\em Current Topics in Medicinal Chemistry}, 11(10):1255--1274, 2011.
+
+\bibitem{Toropov2011}
+A.~A. Toropov, A.~P. Toropova, S.~E. Martyanov, E. Benfenati, G. Gini, D.
+  Leszczynska, and J. Leszczynski.
+\newblock {Comparison of SMILES and molecular graphs as the representation of
+  the molecular structure for QSAR analysis for mutagenic potential of
+  polyaromatic amines}.
+\newblock {\em Chemometrics and Intelligent Laboratory Systems},
+  109(1):94--100, 2011.
+
+\bibitem{withnall2019}
+Michael Withnall, Edvard Lindelöf, Ola Engkvist, and Hongming Chen.
+\newblock Building attention and edge convolution neural networks for
+  bioactivity and physical-chemical property prediction, 2019.
+
+\bibitem{Yao2020}
+Haochen Yao, Nan Zhang, Ruochi Zhang, Meiyu Duan, Tianqi Xie, Jiahui Pan, Ejun
+  Peng, Juanjuan Huang, Yingli Zhang, Xiaoming Xu, Hong Xu, Fengfeng Zhou, and
+  Guoqing Wang.
+\newblock {Severity Detection for the Coronavirus Disease 2019 (COVID-19)
+  Patients Using a Machine Learning Model Based on the Blood and Urine Tests}.
+\newblock {\em Frontiers in Cell and Developmental Biology}, 8(July):1--10,
+  2020.
+
+\bibitem{Zurdo2013}
+Jes{\'{u}}s Zurdo.
+\newblock {Developability assessment as an early de-risking tool for
+  biopharmaceutical development}.
+\newblock {\em Pharmaceutical Bioprocessing}, 1(1):29--50, 2013.
+
+\end{thebibliography}

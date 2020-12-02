@@ -1,4 +1,4 @@
-\documentclass[10pt,twocolumn,letterpaper]{article}
+\documentclass[10pt,onecolumn,letterpaper]{article}
 
 \usepackage{cvpr}
 \usepackage{times}
@@ -140,6 +140,31 @@ subject to
 \begin{aligned}y_{i}\left( w^{T}x_{i}+b\right) \geq 1-\xi i\\
 \xi _{i}\geq 0,\forall n\end{aligned}
 \end{equation}
+
+
+svm derive
+
+
+\begin{equation}
+L=\frac{1}{2}\|\bar{w}\|^{2}-\sum \alpha_{i}\left[y_{i}\left(\bar{w} \cdot \bar{x}_{i}+b\right)-1\right]
+\end{equation}
+
+\begin{equation}
+\frac{\partial L}{\partial \bar{\omega}}=\bar{\omega}-\sum \alpha_{i} y_{i} x_{i}=0 \Rightarrow \bar{\omega}=\sum_{i} \alpha_{i} y_{i} \bar{x}_{i}
+\end{equation}
+
+\begin{equation}
+\frac{\partial L}{\partial b}=-\sum \alpha_{i} y_{i}=0 \Rightarrow \sum \alpha_{i} y_{i}=0
+\end{equation}
+
+
+\begin{equation}
+L=\frac{1}{2}\left(\sum \alpha_{i} y \bar{x}_{1}\right)\left(\sum \alpha_{j} y_{i} \bar{x}_{j}\right)-\sum \alpha_{i} y_{j} x_{i}\left(\sum \alpha_{j} y_{j} x_{j}\left) -\sum \alpha_{i} y_{i} b \right + \sum \alpha_{i}
+\end{equation}
+
+
+
+
 
 
 Kuhn-Tucker theorem and Lagrange multipliers can be utilized to drive the previous problem from primal problem to dual problem. 
